@@ -1,0 +1,37 @@
+i=0
+print("1. Chro trebuen narod po versii Klima Zhukova?")
+print("1) Xleva i Zrelish")
+print("2) Zavodov")
+print("3) Sviney")
+print("4) Svobody")
+a=tonumber(io.read())
+if a==3 then i=i+1 end
+print("2. Ot chego umer begolaga v bytve pri Visbu?")
+print("1) Udar alebardoii")
+print("2) Tri arbaletnyx bolta v zatylok")
+print("3) Ryminy vmesto souznikov")
+print("4) Udar kopuem")
+a=tonumber(io.read())
+if a==1 then i=i+1 end
+print("3. Kto napal na Visbu?")
+print("1) Ryminy")
+print("2) Lansknehty")
+print("3) Vengry")
+print("4) Datchane")
+a=tonumber(io.read())
+if a==3 then i=i+1 end
+print("4. Chto potrebovali u zhiteley Visbu posle bitvy?")
+print("1) Pivo")
+print("2) Tri bochki dragochennostey")
+print("3) Territoriu")
+print("4) Pravo prochoda")
+a=tonumber(io.read())
+if a==2 then i=i+1 end
+print("5. Znachenie bitvy pri Visbu v nashe vremya?")
+print("1) Geopoliticheskaya situatia v rayone bivshego Visbu")
+print("2) Pamyatnoe mesto")
+print("3) Odna iz krupneishih bytv srednevekovya")
+print("4) Krupneishee arxelogichexkoe mesto raskopok")
+a=tonumber(io.read())
+if a==4 then i=i+1 end
+print("Vasha oscenka: ", i)
